@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* Sudoku_RearrangedAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Sudoku_RearrangedAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		1F1220AE0F1F80F0008E8117 /* difficultyView.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F1220AB0F1F80F0008E8117 /* difficultyView.png */; };
+		1F1220AF0F1F80F0008E8117 /* HowToView.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F1220AC0F1F80F0008E8117 /* HowToView.png */; };
+		1F1220B30F1F814E008E8117 /* AreYouSureView.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F1220B20F1F814E008E8117 /* AreYouSureView.png */; };
+		1F190C1F0F2387CC00079683 /* BackgroundYourAnswerIsCorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F190C1D0F2387CC00079683 /* BackgroundYourAnswerIsCorrect.png */; };
+		1F190C200F2387CC00079683 /* BackgroundYourAnswerIsWrong.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F190C1E0F2387CC00079683 /* BackgroundYourAnswerIsWrong.png */; };
+		1F2B502E0F212E3200C5DB48 /* ImageSegmentedControlBar-Filled163.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F2B502D0F212E3200C5DB48 /* ImageSegmentedControlBar-Filled163.png */; };
+		1F2B50380F2134F200C5DB48 /* LogoSudoku.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F2B50370F2134F200C5DB48 /* LogoSudoku.png */; };
+		1F2B504F0F21D9CF00C5DB48 /* ImageAlternateGameBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F2B504E0F21D9CF00C5DB48 /* ImageAlternateGameBackground.png */; };
+		1F2B50590F21DD1F00C5DB48 /* BackgroundAboutView.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F2B50580F21DD1F00C5DB48 /* BackgroundAboutView.png */; };
+		1F6BCAC60F67FE8700EE11EE /* ASingletonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6BCAC10F67FE8700EE11EE /* ASingletonClass.m */; };
+		1F6BCAC70F67FE8700EE11EE /* SaveSmallApplicationDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6BCAC30F67FE8700EE11EE /* SaveSmallApplicationDataController.m */; };
+		1F6BCAC80F67FE8700EE11EE /* SoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6BCAC50F67FE8700EE11EE /* SoundPlayer.m */; };
+		1F7082D20F18B9A3001D7501 /* iPhone CoDA Mobile Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F7082D10F18B9A3001D7501 /* iPhone CoDA Mobile Logo.png */; };
+		1F7082DF0F18BAF2001D7501 /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7082DE0F18BAF2001D7501 /* HomeScreenViewController.m */; };
+		1F7082E50F18BBCB001D7501 /* HomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F7082E40F18BBCB001D7501 /* HomeScreenViewController.xib */; };
+		1F8737C60F78FF8100B29FBB /* ButtonGoBackToMyGame.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F8737C50F78FF8100B29FBB /* ButtonGoBackToMyGame.png */; };
+		1F8737CA0F78FFA700B29FBB /* ButtonGoBackToMyGamePressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F8737C90F78FFA700B29FBB /* ButtonGoBackToMyGamePressed.png */; };
+		1F8737D00F7901AD00B29FBB /* OrsadaBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F8737CF0F7901AD00B29FBB /* OrsadaBackground.png */; };
+		1F9872B80F20B8340085408D /* ImageSudokuSubsquareWithAlpha.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9872B70F20B8340085408D /* ImageSudokuSubsquareWithAlpha.png */; };
+		1F9872CC0F20BBDB0085408D /* ImageEasy.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9872C10F20BBDB0085408D /* ImageEasy.png */; };
+		1F9872CD0F20BBDB0085408D /* ImageHard.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9872C20F20BBDB0085408D /* ImageHard.png */; };
+		1F9872CE0F20BBDB0085408D /* ImageNumber1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9872C30F20BBDB0085408D /* ImageNumber1.png */; };
+		1F9872CF0F20BBDB0085408D /* ImageNumber2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9872C40F20BBDB0085408D /* ImageNumber2.png */; };
+		1F9872D00F20BBDB0085408D /* ImageNumber3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9872C50F20BBDB0085408D /* ImageNumber3.png */; };
+		1F9872D10F20BBDB0085408D /* ImageNumber4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9872C60F20BBDB0085408D /* ImageNumber4.png */; };
+		1F9872D20F20BBDB0085408D /* ImageNumber5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9872C70F20BBDB0085408D /* ImageNumber5.png */; };
+		1F9872D30F20BBDB0085408D /* ImageNumber6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9872C80F20BBDB0085408D /* ImageNumber6.png */; };
+		1F9872D40F20BBDB0085408D /* ImageNumber7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9872C90F20BBDB0085408D /* ImageNumber7.png */; };
+		1F9872D50F20BBDB0085408D /* ImageNumber8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9872CA0F20BBDB0085408D /* ImageNumber8.png */; };
+		1F9872D60F20BBDB0085408D /* ImageNumber9.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9872CB0F20BBDB0085408D /* ImageNumber9.png */; };
+		1F9F9FB00F2097E300840614 /* ImageSudokuSubsquare.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9F9FAD0F2097E300840614 /* ImageSudokuSubsquare.png */; };
+		1F9F9FB10F2097E300840614 /* ImageSudokuSubSquarePressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9F9FAE0F2097E300840614 /* ImageSudokuSubSquarePressed.png */; };
+		1F9F9FD40F2099CE00840614 /* ButtonSolveButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9F9FD20F2099CE00840614 /* ButtonSolveButton.png */; };
+		1F9F9FD50F2099CE00840614 /* ButtonSolveButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9F9FD30F2099CE00840614 /* ButtonSolveButtonPressed.png */; };
+		1F9FA0970F209BD500840614 /* ButtonHowToButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9FA0950F209BD500840614 /* ButtonHowToButton.png */; };
+		1F9FA0980F209BD500840614 /* ButtonHowToButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9FA0960F209BD500840614 /* ButtonHowToButtonPressed.png */; };
+		1F9FA09D0F209BFB00840614 /* ButtonAboutButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9FA09B0F209BFB00840614 /* ButtonAboutButton.png */; };
+		1F9FA09E0F209BFB00840614 /* ButtonAboutButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9FA09C0F209BFB00840614 /* ButtonAboutButtonPressed.png */; };
+		1F9FA0D80F209E9A00840614 /* ButtoncheckAnswer.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9FA0D60F209E9900840614 /* ButtoncheckAnswer.png */; };
+		1F9FA0D90F209E9A00840614 /* ButtoncheckAnswerPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9FA0D70F209E9A00840614 /* ButtoncheckAnswerPressed.png */; };
+		1F9FA0DF0F209F0100840614 /* ButtonGoToMainMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9FA0DD0F209F0100840614 /* ButtonGoToMainMenu.png */; };
+		1F9FA0E00F209F0100840614 /* ButtonGoToMainMenuPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9FA0DE0F209F0100840614 /* ButtonGoToMainMenuPressed.png */; };
+		1F9FA0E70F20A1F000840614 /* Buttonstart.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9FA0E50F20A1F000840614 /* Buttonstart.png */; };
+		1F9FA0E80F20A1F000840614 /* ButtonstartPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9FA0E60F20A1F000840614 /* ButtonstartPressed.png */; };
+		1FA5FA640F6A6B320064287C /* myGameMP3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FA5FA630F6A6B320064287C /* myGameMP3.mp3 */; };
+		1FA97EB80F1AB325003BFADB /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA97EB70F1AB325003BFADB /* GameViewController.m */; };
+		1FA97ECE0F1AB3B2003BFADB /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FA97ECD0F1AB3B2003BFADB /* GameViewController.xib */; };
+		1FB6E2560F1EBE79008BA97F /* ClearButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FB6E24E0F1EBE79008BA97F /* ClearButton.png */; };
+		1FB6E2570F1EBE79008BA97F /* ClearButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FB6E24F0F1EBE79008BA97F /* ClearButtonPressed.png */; };
+		1FB6E2590F1EBE79008BA97F /* NewGameButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FB6E2510F1EBE79008BA97F /* NewGameButton.png */; };
+		1FB6E25A0F1EBE79008BA97F /* NewGameButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FB6E2520F1EBE79008BA97F /* NewGameButtonPressed.png */; };
+		1FB6E2750F1ECB11008BA97F /* MainMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FB6E2740F1ECB11008BA97F /* MainMenu.png */; };
+		1FC1D4000F69972A007DF67A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC1D3FF0F69972A007DF67A /* AVFoundation.framework */; };
+		1FC1D40E0F69973F007DF67A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC1D40D0F69973F007DF67A /* AudioToolbox.framework */; };
+		1FC1D4AD0F6A3DA5007DF67A /* tap.aif in Resources */ = {isa = PBXBuildFile; fileRef = 1FC1D4AC0F6A3DA5007DF67A /* tap.aif */; };
+		1FC1D4BB0F6A43CF007DF67A /* GameTableElementsAndView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1D4BA0F6A43CF007DF67A /* GameTableElementsAndView.m */; };
+		1FE2C9EC0F1C2A5000283E9B /* empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE2C9EB0F1C2A5000283E9B /* empty.png */; };
+		1FE2C9F90F1C31E500283E9B /* SudokuGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2C9F80F1C31E500283E9B /* SudokuGenerator.m */; };
+		1FF7136E0F200C7900F10DB2 /* ButtonCloseThisView.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF7136C0F200C7900F10DB2 /* ButtonCloseThisView.png */; };
+		1FF7136F0F200C7900F10DB2 /* ButtonCloseThisViewPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF7136D0F200C7900F10DB2 /* ButtonCloseThisViewPressed.png */; };
+		1FF7137C0F200DBB00F10DB2 /* ButtonNoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF713780F200DBB00F10DB2 /* ButtonNoButton.png */; };
+		1FF7137D0F200DBB00F10DB2 /* ButtonNoButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF713790F200DBB00F10DB2 /* ButtonNoButtonPressed.png */; };
+		1FF7137E0F200DBB00F10DB2 /* ButtonYes.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF7137A0F200DBB00F10DB2 /* ButtonYes.png */; };
+		1FF7137F0F200DBB00F10DB2 /* ButtonYesPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF7137B0F200DBB00F10DB2 /* ButtonYesPressed.png */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* Sudoku_RearrangedAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sudoku_RearrangedAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* Sudoku_RearrangedAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sudoku_RearrangedAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Sudoku-Rearranged.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sudoku-Rearranged.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F1220AB0F1F80F0008E8117 /* difficultyView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = difficultyView.png; sourceTree = "<group>"; };
+		1F1220AC0F1F80F0008E8117 /* HowToView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HowToView.png; sourceTree = "<group>"; };
+		1F1220B20F1F814E008E8117 /* AreYouSureView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AreYouSureView.png; sourceTree = "<group>"; };
+		1F190C1D0F2387CC00079683 /* BackgroundYourAnswerIsCorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BackgroundYourAnswerIsCorrect.png; path = Classes/BackgroundYourAnswerIsCorrect.png; sourceTree = "<group>"; };
+		1F190C1E0F2387CC00079683 /* BackgroundYourAnswerIsWrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BackgroundYourAnswerIsWrong.png; path = Classes/BackgroundYourAnswerIsWrong.png; sourceTree = "<group>"; };
+		1F2B502D0F212E3200C5DB48 /* ImageSegmentedControlBar-Filled163.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ImageSegmentedControlBar-Filled163.png"; sourceTree = "<group>"; };
+		1F2B50370F2134F200C5DB48 /* LogoSudoku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoSudoku.png; sourceTree = "<group>"; };
+		1F2B504E0F21D9CF00C5DB48 /* ImageAlternateGameBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageAlternateGameBackground.png; sourceTree = "<group>"; };
+		1F2B50580F21DD1F00C5DB48 /* BackgroundAboutView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundAboutView.png; sourceTree = "<group>"; };
+		1F6BCAC00F67FE8700EE11EE /* ASingletonClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASingletonClass.h; path = ../ASingletonClass.h; sourceTree = "<group>"; };
+		1F6BCAC10F67FE8700EE11EE /* ASingletonClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASingletonClass.m; path = ../ASingletonClass.m; sourceTree = "<group>"; };
+		1F6BCAC20F67FE8700EE11EE /* SaveSmallApplicationDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SaveSmallApplicationDataController.h; path = ../SaveSmallApplicationDataController.h; sourceTree = "<group>"; };
+		1F6BCAC30F67FE8700EE11EE /* SaveSmallApplicationDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SaveSmallApplicationDataController.m; path = ../SaveSmallApplicationDataController.m; sourceTree = "<group>"; };
+		1F6BCAC40F67FE8700EE11EE /* SoundPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundPlayer.h; path = ../SoundPlayer.h; sourceTree = "<group>"; };
+		1F6BCAC50F67FE8700EE11EE /* SoundPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoundPlayer.m; path = ../SoundPlayer.m; sourceTree = "<group>"; };
+		1F7082D10F18B9A3001D7501 /* iPhone CoDA Mobile Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone CoDA Mobile Logo.png"; path = "Classes/iPhone CoDA Mobile Logo.png"; sourceTree = "<group>"; };
+		1F7082DD0F18BAF2001D7501 /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
+		1F7082DE0F18BAF2001D7501 /* HomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenViewController.m; sourceTree = "<group>"; };
+		1F7082E40F18BBCB001D7501 /* HomeScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HomeScreenViewController.xib; path = Classes/HomeScreenViewController.xib; sourceTree = "<group>"; };
+		1F8737C50F78FF8100B29FBB /* ButtonGoBackToMyGame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonGoBackToMyGame.png; path = Classes/ButtonGoBackToMyGame.png; sourceTree = "<group>"; };
+		1F8737C90F78FFA700B29FBB /* ButtonGoBackToMyGamePressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonGoBackToMyGamePressed.png; path = Classes/ButtonGoBackToMyGamePressed.png; sourceTree = "<group>"; };
+		1F8737CF0F7901AD00B29FBB /* OrsadaBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OrsadaBackground.png; sourceTree = "<group>"; };
+		1F9872B70F20B8340085408D /* ImageSudokuSubsquareWithAlpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageSudokuSubsquareWithAlpha.png; sourceTree = "<group>"; };
+		1F9872C10F20BBDB0085408D /* ImageEasy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageEasy.png; sourceTree = "<group>"; };
+		1F9872C20F20BBDB0085408D /* ImageHard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageHard.png; sourceTree = "<group>"; };
+		1F9872C30F20BBDB0085408D /* ImageNumber1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageNumber1.png; sourceTree = "<group>"; };
+		1F9872C40F20BBDB0085408D /* ImageNumber2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageNumber2.png; sourceTree = "<group>"; };
+		1F9872C50F20BBDB0085408D /* ImageNumber3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageNumber3.png; sourceTree = "<group>"; };
+		1F9872C60F20BBDB0085408D /* ImageNumber4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageNumber4.png; sourceTree = "<group>"; };
+		1F9872C70F20BBDB0085408D /* ImageNumber5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageNumber5.png; sourceTree = "<group>"; };
+		1F9872C80F20BBDB0085408D /* ImageNumber6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageNumber6.png; sourceTree = "<group>"; };
+		1F9872C90F20BBDB0085408D /* ImageNumber7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageNumber7.png; sourceTree = "<group>"; };
+		1F9872CA0F20BBDB0085408D /* ImageNumber8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageNumber8.png; sourceTree = "<group>"; };
+		1F9872CB0F20BBDB0085408D /* ImageNumber9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageNumber9.png; sourceTree = "<group>"; };
+		1F9F9FAD0F2097E300840614 /* ImageSudokuSubsquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageSudokuSubsquare.png; sourceTree = "<group>"; };
+		1F9F9FAE0F2097E300840614 /* ImageSudokuSubSquarePressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageSudokuSubSquarePressed.png; sourceTree = "<group>"; };
+		1F9F9FD20F2099CE00840614 /* ButtonSolveButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonSolveButton.png; sourceTree = "<group>"; };
+		1F9F9FD30F2099CE00840614 /* ButtonSolveButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonSolveButtonPressed.png; sourceTree = "<group>"; };
+		1F9FA0950F209BD500840614 /* ButtonHowToButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonHowToButton.png; sourceTree = "<group>"; };
+		1F9FA0960F209BD500840614 /* ButtonHowToButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonHowToButtonPressed.png; sourceTree = "<group>"; };
+		1F9FA09B0F209BFB00840614 /* ButtonAboutButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonAboutButton.png; sourceTree = "<group>"; };
+		1F9FA09C0F209BFB00840614 /* ButtonAboutButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonAboutButtonPressed.png; sourceTree = "<group>"; };
+		1F9FA0D60F209E9900840614 /* ButtoncheckAnswer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtoncheckAnswer.png; sourceTree = "<group>"; };
+		1F9FA0D70F209E9A00840614 /* ButtoncheckAnswerPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtoncheckAnswerPressed.png; sourceTree = "<group>"; };
+		1F9FA0DD0F209F0100840614 /* ButtonGoToMainMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonGoToMainMenu.png; sourceTree = "<group>"; };
+		1F9FA0DE0F209F0100840614 /* ButtonGoToMainMenuPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonGoToMainMenuPressed.png; sourceTree = "<group>"; };
+		1F9FA0E50F20A1F000840614 /* Buttonstart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Buttonstart.png; sourceTree = "<group>"; };
+		1F9FA0E60F20A1F000840614 /* ButtonstartPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonstartPressed.png; sourceTree = "<group>"; };
+		1FA5FA630F6A6B320064287C /* myGameMP3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = myGameMP3.mp3; sourceTree = "<group>"; };
+		1FA97EB60F1AB325003BFADB /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		1FA97EB70F1AB325003BFADB /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		1FA97ECD0F1AB3B2003BFADB /* GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GameViewController.xib; path = Classes/GameViewController.xib; sourceTree = "<group>"; };
+		1FB6E24E0F1EBE79008BA97F /* ClearButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ClearButton.png; path = Classes/ClearButton.png; sourceTree = "<group>"; };
+		1FB6E24F0F1EBE79008BA97F /* ClearButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ClearButtonPressed.png; path = Classes/ClearButtonPressed.png; sourceTree = "<group>"; };
+		1FB6E2510F1EBE79008BA97F /* NewGameButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NewGameButton.png; path = Classes/NewGameButton.png; sourceTree = "<group>"; };
+		1FB6E2520F1EBE79008BA97F /* NewGameButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NewGameButtonPressed.png; path = Classes/NewGameButtonPressed.png; sourceTree = "<group>"; };
+		1FB6E2740F1ECB11008BA97F /* MainMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainMenu.png; sourceTree = "<group>"; };
+		1FC1D3FF0F69972A007DF67A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1FC1D40D0F69973F007DF67A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1FC1D4AC0F6A3DA5007DF67A /* tap.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = tap.aif; sourceTree = "<group>"; };
+		1FC1D4B90F6A43CF007DF67A /* GameTableElementsAndView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameTableElementsAndView.h; path = ../GameTableElementsAndView.h; sourceTree = "<group>"; };
+		1FC1D4BA0F6A43CF007DF67A /* GameTableElementsAndView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameTableElementsAndView.m; path = ../GameTableElementsAndView.m; sourceTree = "<group>"; };
+		1FE2C9EB0F1C2A5000283E9B /* empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empty.png; sourceTree = "<group>"; };
+		1FE2C9F70F1C31E500283E9B /* SudokuGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SudokuGenerator.h; path = ../SudokuGenerator.h; sourceTree = "<group>"; };
+		1FE2C9F80F1C31E500283E9B /* SudokuGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SudokuGenerator.m; path = ../SudokuGenerator.m; sourceTree = "<group>"; };
+		1FF7136C0F200C7900F10DB2 /* ButtonCloseThisView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonCloseThisView.png; sourceTree = "<group>"; };
+		1FF7136D0F200C7900F10DB2 /* ButtonCloseThisViewPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonCloseThisViewPressed.png; sourceTree = "<group>"; };
+		1FF713780F200DBB00F10DB2 /* ButtonNoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonNoButton.png; sourceTree = "<group>"; };
+		1FF713790F200DBB00F10DB2 /* ButtonNoButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonNoButtonPressed.png; sourceTree = "<group>"; };
+		1FF7137A0F200DBB00F10DB2 /* ButtonYes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonYes.png; sourceTree = "<group>"; };
+		1FF7137B0F200DBB00F10DB2 /* ButtonYesPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonYesPressed.png; sourceTree = "<group>"; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Sudoku_Rearranged_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sudoku_Rearranged_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				1FC1D4000F69972A007DF67A /* AVFoundation.framework in Frameworks */,
+				1FC1D40E0F69973F007DF67A /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1FE2C9F70F1C31E500283E9B /* SudokuGenerator.h */,
+				1FE2C9F80F1C31E500283E9B /* SudokuGenerator.m */,
+				1FC1D4B90F6A43CF007DF67A /* GameTableElementsAndView.h */,
+				1FC1D4BA0F6A43CF007DF67A /* GameTableElementsAndView.m */,
+				1F6BCAC40F67FE8700EE11EE /* SoundPlayer.h */,
+				1F6BCAC50F67FE8700EE11EE /* SoundPlayer.m */,
+				1F6BCAC20F67FE8700EE11EE /* SaveSmallApplicationDataController.h */,
+				1F6BCAC30F67FE8700EE11EE /* SaveSmallApplicationDataController.m */,
+				1F6BCAC00F67FE8700EE11EE /* ASingletonClass.h */,
+				1F6BCAC10F67FE8700EE11EE /* ASingletonClass.m */,
+				1FA97EB60F1AB325003BFADB /* GameViewController.h */,
+				1FA97EB70F1AB325003BFADB /* GameViewController.m */,
+				1D3623240D0F684500981E51 /* Sudoku_RearrangedAppDelegate.h */,
+				1D3623250D0F684500981E51 /* Sudoku_RearrangedAppDelegate.m */,
+				1F7082DD0F18BAF2001D7501 /* HomeScreenViewController.h */,
+				1F7082DE0F18BAF2001D7501 /* HomeScreenViewController.m */,
+				1FC1D4AC0F6A3DA5007DF67A /* tap.aif */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Sudoku-Rearranged.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1F8737C50F78FF8100B29FBB /* ButtonGoBackToMyGame.png */,
+				1F1220B20F1F814E008E8117 /* AreYouSureView.png */,
+				1F1220AB0F1F80F0008E8117 /* difficultyView.png */,
+				1F1220AC0F1F80F0008E8117 /* HowToView.png */,
+				1FB6E2740F1ECB11008BA97F /* MainMenu.png */,
+				1FB6E24E0F1EBE79008BA97F /* ClearButton.png */,
+				1FB6E24F0F1EBE79008BA97F /* ClearButtonPressed.png */,
+				1FE2C9EB0F1C2A5000283E9B /* empty.png */,
+				1F7082D10F18B9A3001D7501 /* iPhone CoDA Mobile Logo.png */,
+				32CA4F630368D1EE00C91783 /* Sudoku_Rearranged_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				1FA97ECD0F1AB3B2003BFADB /* GameViewController.xib */,
+			);
+			name = "Other Sources";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F8737C90F78FFA700B29FBB /* ButtonGoBackToMyGamePressed.png */,
+				1F8737CF0F7901AD00B29FBB /* OrsadaBackground.png */,
+				1FA5FA630F6A6B320064287C /* myGameMP3.mp3 */,
+				1F2B50580F21DD1F00C5DB48 /* BackgroundAboutView.png */,
+				1F2B504E0F21D9CF00C5DB48 /* ImageAlternateGameBackground.png */,
+				1F2B50370F2134F200C5DB48 /* LogoSudoku.png */,
+				1F2B502D0F212E3200C5DB48 /* ImageSegmentedControlBar-Filled163.png */,
+				1F9872C10F20BBDB0085408D /* ImageEasy.png */,
+				1F9872C20F20BBDB0085408D /* ImageHard.png */,
+				1F9872C30F20BBDB0085408D /* ImageNumber1.png */,
+				1F9872C40F20BBDB0085408D /* ImageNumber2.png */,
+				1F9872C50F20BBDB0085408D /* ImageNumber3.png */,
+				1F9872C60F20BBDB0085408D /* ImageNumber4.png */,
+				1F9872C70F20BBDB0085408D /* ImageNumber5.png */,
+				1F9872C80F20BBDB0085408D /* ImageNumber6.png */,
+				1F9872C90F20BBDB0085408D /* ImageNumber7.png */,
+				1F9872CA0F20BBDB0085408D /* ImageNumber8.png */,
+				1F9872CB0F20BBDB0085408D /* ImageNumber9.png */,
+				1F9872B70F20B8340085408D /* ImageSudokuSubsquareWithAlpha.png */,
+				1F9FA0E50F20A1F000840614 /* Buttonstart.png */,
+				1F9FA0E60F20A1F000840614 /* ButtonstartPressed.png */,
+				1F9FA0DD0F209F0100840614 /* ButtonGoToMainMenu.png */,
+				1F9FA0DE0F209F0100840614 /* ButtonGoToMainMenuPressed.png */,
+				1F9FA0D60F209E9900840614 /* ButtoncheckAnswer.png */,
+				1F9FA0D70F209E9A00840614 /* ButtoncheckAnswerPressed.png */,
+				1F9FA09B0F209BFB00840614 /* ButtonAboutButton.png */,
+				1F190C1E0F2387CC00079683 /* BackgroundYourAnswerIsWrong.png */,
+				1F190C1D0F2387CC00079683 /* BackgroundYourAnswerIsCorrect.png */,
+				1F9FA09C0F209BFB00840614 /* ButtonAboutButtonPressed.png */,
+				1F9FA0950F209BD500840614 /* ButtonHowToButton.png */,
+				1F9FA0960F209BD500840614 /* ButtonHowToButtonPressed.png */,
+				1FB6E2510F1EBE79008BA97F /* NewGameButton.png */,
+				1FB6E2520F1EBE79008BA97F /* NewGameButtonPressed.png */,
+				1F9F9FD20F2099CE00840614 /* ButtonSolveButton.png */,
+				1F9F9FD30F2099CE00840614 /* ButtonSolveButtonPressed.png */,
+				1F9F9FAD0F2097E300840614 /* ImageSudokuSubsquare.png */,
+				1F9F9FAE0F2097E300840614 /* ImageSudokuSubSquarePressed.png */,
+				1FF713780F200DBB00F10DB2 /* ButtonNoButton.png */,
+				1FF713790F200DBB00F10DB2 /* ButtonNoButtonPressed.png */,
+				1FF7137A0F200DBB00F10DB2 /* ButtonYes.png */,
+				1FF7137B0F200DBB00F10DB2 /* ButtonYesPressed.png */,
+				1FF7136C0F200C7900F10DB2 /* ButtonCloseThisView.png */,
+				1FF7136D0F200C7900F10DB2 /* ButtonCloseThisViewPressed.png */,
+				1F7082E40F18BBCB001D7501 /* HomeScreenViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FC1D40D0F69973F007DF67A /* AudioToolbox.framework */,
+				1FC1D3FF0F69972A007DF67A /* AVFoundation.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Sudoku-Rearranged */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Sudoku-Rearranged" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sudoku-Rearranged";
+			productName = "Sudoku-Rearranged";
+			productReference = 1D6058910D05DD3D006BFB54 /* Sudoku-Rearranged.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Sudoku-Rearranged" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Sudoku-Rearranged */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				1F7082D20F18B9A3001D7501 /* iPhone CoDA Mobile Logo.png in Resources */,
+				1F7082E50F18BBCB001D7501 /* HomeScreenViewController.xib in Resources */,
+				1FA97ECE0F1AB3B2003BFADB /* GameViewController.xib in Resources */,
+				1FE2C9EC0F1C2A5000283E9B /* empty.png in Resources */,
+				1FB6E2560F1EBE79008BA97F /* ClearButton.png in Resources */,
+				1FB6E2570F1EBE79008BA97F /* ClearButtonPressed.png in Resources */,
+				1FB6E2590F1EBE79008BA97F /* NewGameButton.png in Resources */,
+				1FB6E25A0F1EBE79008BA97F /* NewGameButtonPressed.png in Resources */,
+				1FB6E2750F1ECB11008BA97F /* MainMenu.png in Resources */,
+				1F1220AE0F1F80F0008E8117 /* difficultyView.png in Resources */,
+				1F1220AF0F1F80F0008E8117 /* HowToView.png in Resources */,
+				1F1220B30F1F814E008E8117 /* AreYouSureView.png in Resources */,
+				1FF7136E0F200C7900F10DB2 /* ButtonCloseThisView.png in Resources */,
+				1FF7136F0F200C7900F10DB2 /* ButtonCloseThisViewPressed.png in Resources */,
+				1FF7137C0F200DBB00F10DB2 /* ButtonNoButton.png in Resources */,
+				1FF7137D0F200DBB00F10DB2 /* ButtonNoButtonPressed.png in Resources */,
+				1FF7137E0F200DBB00F10DB2 /* ButtonYes.png in Resources */,
+				1FF7137F0F200DBB00F10DB2 /* ButtonYesPressed.png in Resources */,
+				1F9F9FB00F2097E300840614 /* ImageSudokuSubsquare.png in Resources */,
+				1F9F9FB10F2097E300840614 /* ImageSudokuSubSquarePressed.png in Resources */,
+				1F9F9FD40F2099CE00840614 /* ButtonSolveButton.png in Resources */,
+				1F9F9FD50F2099CE00840614 /* ButtonSolveButtonPressed.png in Resources */,
+				1F9FA0970F209BD500840614 /* ButtonHowToButton.png in Resources */,
+				1F9FA0980F209BD500840614 /* ButtonHowToButtonPressed.png in Resources */,
+				1F9FA09D0F209BFB00840614 /* ButtonAboutButton.png in Resources */,
+				1F9FA09E0F209BFB00840614 /* ButtonAboutButtonPressed.png in Resources */,
+				1F9FA0D80F209E9A00840614 /* ButtoncheckAnswer.png in Resources */,
+				1F9FA0D90F209E9A00840614 /* ButtoncheckAnswerPressed.png in Resources */,
+				1F9FA0DF0F209F0100840614 /* ButtonGoToMainMenu.png in Resources */,
+				1F9FA0E00F209F0100840614 /* ButtonGoToMainMenuPressed.png in Resources */,
+				1F9FA0E70F20A1F000840614 /* Buttonstart.png in Resources */,
+				1F9FA0E80F20A1F000840614 /* ButtonstartPressed.png in Resources */,
+				1F9872B80F20B8340085408D /* ImageSudokuSubsquareWithAlpha.png in Resources */,
+				1F9872CC0F20BBDB0085408D /* ImageEasy.png in Resources */,
+				1F9872CD0F20BBDB0085408D /* ImageHard.png in Resources */,
+				1F9872CE0F20BBDB0085408D /* ImageNumber1.png in Resources */,
+				1F9872CF0F20BBDB0085408D /* ImageNumber2.png in Resources */,
+				1F9872D00F20BBDB0085408D /* ImageNumber3.png in Resources */,
+				1F9872D10F20BBDB0085408D /* ImageNumber4.png in Resources */,
+				1F9872D20F20BBDB0085408D /* ImageNumber5.png in Resources */,
+				1F9872D30F20BBDB0085408D /* ImageNumber6.png in Resources */,
+				1F9872D40F20BBDB0085408D /* ImageNumber7.png in Resources */,
+				1F9872D50F20BBDB0085408D /* ImageNumber8.png in Resources */,
+				1F9872D60F20BBDB0085408D /* ImageNumber9.png in Resources */,
+				1F2B502E0F212E3200C5DB48 /* ImageSegmentedControlBar-Filled163.png in Resources */,
+				1F2B50380F2134F200C5DB48 /* LogoSudoku.png in Resources */,
+				1F2B504F0F21D9CF00C5DB48 /* ImageAlternateGameBackground.png in Resources */,
+				1F2B50590F21DD1F00C5DB48 /* BackgroundAboutView.png in Resources */,
+				1F190C1F0F2387CC00079683 /* BackgroundYourAnswerIsCorrect.png in Resources */,
+				1F190C200F2387CC00079683 /* BackgroundYourAnswerIsWrong.png in Resources */,
+				1FC1D4AD0F6A3DA5007DF67A /* tap.aif in Resources */,
+				1FA5FA640F6A6B320064287C /* myGameMP3.mp3 in Resources */,
+				1F8737C60F78FF8100B29FBB /* ButtonGoBackToMyGame.png in Resources */,
+				1F8737CA0F78FFA700B29FBB /* ButtonGoBackToMyGamePressed.png in Resources */,
+				1F8737D00F7901AD00B29FBB /* OrsadaBackground.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* Sudoku_RearrangedAppDelegate.m in Sources */,
+				1F7082DF0F18BAF2001D7501 /* HomeScreenViewController.m in Sources */,
+				1FA97EB80F1AB325003BFADB /* GameViewController.m in Sources */,
+				1FE2C9F90F1C31E500283E9B /* SudokuGenerator.m in Sources */,
+				1F6BCAC60F67FE8700EE11EE /* ASingletonClass.m in Sources */,
+				1F6BCAC70F67FE8700EE11EE /* SaveSmallApplicationDataController.m in Sources */,
+				1F6BCAC80F67FE8700EE11EE /* SoundPlayer.m in Sources */,
+				1FC1D4BB0F6A43CF007DF67A /* GameTableElementsAndView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sudoku_Rearranged_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = "Sudoku-Rearranged";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sudoku_Rearranged_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = "Sudoku-Rearranged";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gediz GÜRSU";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Gediz GÜRSU";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "B0E67A4A-6567-4116-8991-A0E0B4262471";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B0E67A4A-6567-4116-8991-A0E0B4262471";
+				SDKROOT = iphoneos2.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gediz Gursu";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Gediz Gursu";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "B77765E3-F7AE-4604-B677-1EA797C4034A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B77765E3-F7AE-4604-B677-1EA797C4034A";
+				SDKROOT = iphoneos2.2.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Sudoku-Rearranged" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Sudoku-Rearranged" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

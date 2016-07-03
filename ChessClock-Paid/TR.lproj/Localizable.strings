@@ -1,0 +1,13 @@
+/* blackWon message */
+"Black Won ! \n In order to continue readjust timers and hit either resume or touch active pad" = "Siyah Kazandı ! \n Devam etmek için saatleri yeniden ayarlayıp, durdur/yürüt ya da beyaz oynar tuşuna basın...";
+
+/* stopped message */
+"Countdown is stopped due to interruption." = "Kesinti sebebiyle saatler durduruldu.";
+
+/* HowToActivateMessage */
+"Hit either Pause/Resume button or touch black pad to start.\n In order to activate adjustment panel please hit the adjust button..." = "Başlatmak için durdur/yürüt ya da siyah oynar tuşuna basınız.\n Kontrol paneline ulaşmak için ayarla tuşuna basınız...";
+/* OK message */
+"OK" = "TAMAM";
+
+/* whiteWon message */
+"White Won ! \n In order to continue readjust timers and hit either resume or touch active pad" = "Beyaz Kazandı ! \n Devam etmek için saatleri yeniden ayarlayıp, durdur/yürüt tuşuna ya da siyah tuşa basın...";

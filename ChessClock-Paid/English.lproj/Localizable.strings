@@ -1,0 +1,14 @@
+/* blackWon message */
+"Black Won ! \n In order to continue readjust timers and hit either resume or touch active pad" = "Black Won ! \n In order to continue readjust timers and hit either resume or touch active pad";
+
+/* stopped message */
+"Countdown is stopped due to interruption." = "Countdown is stopped due to interruption.";
+
+/* HowToActivateMessage */
+"Hit either Pause/Resume button or touch black pad to start.\n In order to activate adjustment panel please hit the adjust button..." = "Hit either Pause/Resume button or touch black pad to start.\n In order to activate adjustment panel please hit the adjust button...";
+
+/* OK message */
+"OK" = "OK";
+
+/* whiteWon message */
+"White Won ! \n In order to continue readjust timers and hit either resume or touch active pad" = "White Won ! \n In order to continue readjust timers and hit either resume or touch active pad";
